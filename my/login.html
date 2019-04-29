@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/my.css">
+		<script src="js/jquery.slim.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<title></title>
+		<style>
+			.row {
+				height: 100vh;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="container-fluid">
+			<div class="row layer">
+				<img src=" img/timg.jpg " class="img-fluid layer d-none d-sm-block ">
+				<img src="img/thumb-1.jpg " class="img-fluid layer d-block d-sm-none ">
+
+			</div>
+
+			<div class="row align-items-center border layer-top ">
+				<div class="card m-auto transition ">
+					<div class="card-header ">用户登陆</div>
+					<form action=" " method="post ">
+						<div class="card-body ">
+
+							<table style="border-collapse: separate;border-spacing: 0px 10px; ">
+								<tr>
+									<td class="margin-top:10 ">
+										<label>用户名：</label>
+									</td>
+									<td>
+										<input type="text " name="uname " class="transition ">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="pwd ">密码:</label>
+									</td>
+									<td>
+										<input type="password " name="pwd " class="transition ">
+									</td>
+								</tr>
+							</table>
+							<div class="form-check ">
+								<label class="form-check-label ">
+							<input type="checkbox" name=" " class="form-check-input ">记住密码
+						</label>
+							</div>
+						</div>
+						<div class="card-footer ">
+
+							<button type="submit " class="btn btn-primary ">登陆</button>
+							<button type=" " class="btn btn-secondary " onclick="Toregister() ">注册</button>
+							<button type="button " class="btn btn-link "><small>忘记密码？</small></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
